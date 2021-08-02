@@ -12,6 +12,7 @@ Task manager application built using **NODE JS** and **MongoDB**. It follows a *
 - Sorting, Pagination, and Filtering
 - Upload profile picture, convert large images to PNG and Resize it before sending to Database
 - When a user is deleted, the tasks associated with it are also deleted
+- Test cases for verify the complete functionality of the application
 
 ## Getting started
 To get the Node server running locally:
