@@ -10,7 +10,7 @@ Task manager application built using **NODE JS** and **MongoDB**. It follows a *
 - Logout individual device and Logout from all devices
 - Authentication and Security
 - Sorting, Pagination, and Filtering
-- Upload profile picture
+- Upload profile picture, convert large images to PNG and Resize it before sending to Database
 - When a user is deleted, the tasks associated with it are also deleted
 
 ## Getting started
@@ -79,20 +79,20 @@ IT run your application on http://localhost:3000/
 ## NPM Packages That Used in The Project
 
 ### Dependencies
-- ##@sendgrid/mail## Email sent on creating and deleting account
-- ##bcryptjs## Hashing passwords before sending to Database
-- ##express## Node.js Framework
-- ##jsonwebtoken## Create and verify Tokens for Authentication and Authorization 
-- ##mongodb## NoSQL Database
-- ##mongoose## is an Object Modeling Tool for MongoDB
-- ##multer## Upload user profile picture, it's middleware for handling multipart/form-data
-- ##sharp## convert large images in common formats to smaller, web-friendly PNG and Resize it before sending to server
-- ##validator## A library of string validators and sanitizers.
+- **@sendgrid/mail** Email sent on creating and deleting account
+- **bcryptjs** Hashing passwords before sending to Database
+- **express** Node.js Framework
+- **jsonwebtoken** Create and verify Tokens for Authentication and Authorization 
+- **mongodb** NoSQL Database
+- **mongoose** is an Object Modeling Tool for MongoDB
+- **multer** Upload user profile picture, it's middleware for handling multipart/form-data
+- **sharp** convert large images in common formats to smaller, web-friendly PNG and Resize it before sending to server
+- **validator** A library of string validators and sanitizers.
 
 ### devDependencies
-- ##env-cmd## Executing commands using an environment from an .env file
-- ##jest## Testing Framework
-- ##nodemon## Automatically restarting the node application when file changes
-- ##supertest## HTTP assertions for test cases
+- **env-cmd** Executing commands using an environment from an .env file
+- **jest** Testing Framework
+- **nodemon** Automatically restarting the node application when file changes
+- **supertest** HTTP assertions for test cases
 
 
