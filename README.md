@@ -7,7 +7,7 @@ Task manager application built using **NODE JS** and **MongoDB**. It follows a *
 - Create, Read, Update, and Delete Users
 - Create, Read, Update, and Delete Tasks
 - Email sent on creating and deleting account
-- Logout and Logout from all devices
+- Logout individual device and Logout from all devices
 - Authentication and Security
 - Sorting, Pagination, and Filtering
 - Upload profile picture
@@ -76,5 +76,23 @@ IT run your application on http://localhost:3000/
 | PATCH   | /tasks/taskID                      | Private | Update a Task                            |
 | DELETE  | /tasks/taskID                      | Private | Delete a Task                            |
 
+## NPM Packages That Used in The Project
+
+### Dependencies
+- ##@sendgrid/mail## Email sent on creating and deleting account
+- ##bcryptjs## Hashing passwords before sending to Database
+- ##express## Node.js Framework
+- ##jsonwebtoken## Create and verify Tokens for Authentication and Authorization 
+- ##mongodb## NoSQL Database
+- ##mongoose## is an Object Modeling Tool for MongoDB
+- ##multer## Upload user profile picture, it's middleware for handling multipart/form-data
+- ##sharp## convert large images in common formats to smaller, web-friendly PNG and Resize it before sending to server
+- ##validator## A library of string validators and sanitizers.
+
+### devDependencies
+- ##env-cmd## Executing commands using an environment from an .env file
+- ##jest## Testing Framework
+- ##nodemon## Automatically restarting the node application when file changes
+- ##supertest## HTTP assertions for test cases
 
 
