@@ -41,6 +41,13 @@ JWT_SECRET=<set_you_secret>
 
 IT run your application on http://localhost:3000/
 
+## Hosted Domain Link
+
+[Task Manager API](https://hussien-task-manager.herokuapp.com/)
+
+## Postman Collection Link
+
+[Task Manager API Shared Collection](https://www.getpostman.com/collections/4c2667002b265a5744ca)
 
 
 ## API Endpoints
@@ -70,10 +77,4 @@ IT run your application on http://localhost:3000/
 | DELETE  | /tasks/taskID                      | Private | Delete a Task                            |
 
 
-## Hosted Domain Link
 
-[Task Manager API](https://hussien-task-manager.herokuapp.com/)
-
-## Postman Collection Link
-
-[Task Manager API Shared Collection](https://www.getpostman.com/collections/4c2667002b265a5744ca)
