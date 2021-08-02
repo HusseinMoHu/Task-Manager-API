@@ -14,23 +14,26 @@ Task manager application built using **NODE JS** and **MongoDB**. It follows a *
 | ------- | ---------------------------------- | ------- | ---------------------------------------- |
 | POST    | /users                             | Public  | Sign up                                  |
 | POST    | /users/login                       | Public  | Login                                    |
+| POST    | /users/logout                      | Private | Logout an account                        |
+| POST    | /users/logoutAll                   | Private | Logout all accounts                      |
+| POST    | /tasks                             | Private | Create a Task                            |
 | GET     | /users/me                          | Private | User's Profile                           |
 | PATCH   | /users/me                          | Private | Update Profile                           |
 | POST    | /users/me/avatar                   | Private | Upload Profile Picture                   |
 | GET     | /users/userID/avataar              | Private | View Profile Picture                     |
 | DELETE  | /users/me/avatar                   | Private | Delete Profile Picture                   |
 | DELETE  | /users/me                          | Private | Delete Account                           |
-| POST    | /users/tasks                       | Private | Create a Task                            |
-| GET     | /users/tasks/taskID                | Private | View a Task                              |
-| GET     | /users/tasks                       | Private | View all Tasks                           |
-| GET     | /users/tasks?limit=2               | Private | Limit the result to 2                    |
-| GET     | /users/tasks?sortBy=createdAt:desc | Private | Sort by Descending order of created date |
-| GET     | /users/tasks?sortBy=createdAt:asc  | Private | Sort by Ascending order of created date  |
-| GET     | /users/tasks?skip=3                | Private | Paginating result                        |
-| PATCH   | /users/tasks/taskID                | Private | Update a Task                            |
-| DELETE  | /users/tasks/taskID                | Private | Delete a Task                            |
-| POST    | /users/logout                      | Private | Logout an account                        |
-| POST    | /users/logoutall                   | Private | Logout all accounts                      |
+| GET     | /tasks/taskID                      | Private | View a Task                              |
+| GET     | /tasks                             | Private | View all Tasks                           |
+| GET     | /tasks?completed=true              | Private | Limit the result to completed tasks      |
+| GET     | /tasks?completed=false             | Private | Limit the result to uncompleted tasks    |
+| GET     | /tasks?limit=2                     | Private | Limit the result to 2                    |
+| GET     | /tasks?skip=3                      | Private | Paginating result                        |
+| GET     | /tasks?sortBy=createdAt_desc       | Private | Sort by Descending order of created date |
+| GET     | /tasks?sortBy=createdAt_asc        | Private | Sort by Ascending order of created date  |
+| PATCH   | /tasks/taskID                      | Private | Update a Task                            |
+| DELETE  | /tasks/taskID                      | Private | Delete a Task                            |
+
 
 ## Hosted Domain Link
 
