@@ -3,10 +3,45 @@ Task manager application built using **NODE JS** and **MongoDB**. It follows a *
 
 ## Features
 
-- Sending Emails
+- Sign-Up and Login
+- Create, Read, Update, and Delete Users
+- Create, Read, Update, and Delete Tasks
+- Email sent on creating and deleting account
+- Logout and Logout from all devices
 - Authentication and Security
 - Sorting, Pagination, and Filtering
-- Avatar upload
+- Upload profile picture
+- When a user is deleted, the tasks associated with it are also deleted
+
+## Getting started
+To get the Node server running locally:
+- create .env with the following code (update credentials). Make sure to create .env in the root directory of the project. config/dev.env & config/test.env
+
+- For dev environment
+```
+PORT=3000
+MONGODB_URL=<--YOUR_URL-->/task-manager-api
+SENDGRID_API_KEY=<--YOUR_API_KRY-->
+JWT_SECRET=<set_you_secret>
+```
+- For testing environment
+```
+PORT=3000
+MONGODB_URL=<--YOUR_URL-->/task-manager-api-test
+SENDGRID_API_KEY=<--YOUR_API_KRY-->
+JWT_SECRET=<set_you_secret>
+```
+
+- ``npm install`` to install all required dependencies
+- ``npm start`` to start the local server
+- ``npm run dev`` to start the local server in dev mode
+- ``npm test`` to fire test cases
+
+
+
+IT run your application on http://localhost:3000/
+
+
 
 ## API Endpoints
 
