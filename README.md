@@ -87,7 +87,7 @@ IT run your application on http://localhost:3000/
 - **mongodb** NoSQL Database
 - **mongoose** is an Object Modeling Tool for MongoDB
 - **multer** Upload user profile picture, it's middleware for handling multipart/form-data
-- **sharp** convert large images in common formats to smaller, web-friendly PNG and Resize it before sending to server
+- **sharp** convert large images in common formats and Resize it before sending to server
 - **validator** A library of string validators and sanitizers.
 
 ### devDependencies
